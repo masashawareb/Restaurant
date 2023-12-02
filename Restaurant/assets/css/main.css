@@ -1,0 +1,640 @@
+/*
+public style
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.clearfix{
+    clear:both;
+}
+/* start header */
+.header{
+    background-image: url('../img/background-in-header.jpg') ;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+}
+
+.navbar{
+    height: 60px;
+    background-color: rgb(234 218 190);
+    padding-top: 10px ;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.nav{
+    float: left;
+    width: 60%;
+    margin-top: 25px;
+}
+
+.logo{
+    margin-top: 0;
+    height: 20px;
+    float: left;
+    width: 40%;
+}
+
+.logo img{
+    width: 139.76px;
+    height: 54;
+}
+
+.nav ul li{
+    display: inline-block;
+    width: 80px;
+}
+
+.nav ul li a{
+    color: #FFF;
+    font-size: 20px;
+}
+
+.header-content{
+    color: #FFF;
+    margin-top:110px;
+}
+
+.header-content h1{
+    font-family :Alegreya;
+    font-size : 76px;
+    font-weight : 400;
+    margin-bottom:20px;
+}
+
+.header-content img{
+    width: 400px;
+    height: 220px;
+    margin-bottom : 20px ;
+    margin-left : 150px ;
+    margin-right:150px;
+    margin-top :0px;
+}
+
+.header-content p{
+    font-family : Dancing Script;
+    font-size : 40px;
+    font-weight : 400;
+    margin-top:10px;
+    margin-bottom:40px;
+}
+
+.header-content button{
+    padding: 15px 30px;
+    margin-right: 5px;
+}
+
+.header-content .Learn-More{
+    background-color: rgb(193,171,132);
+    color: #FFF;
+    cursor: pointer;
+    width : 133.05px;
+    height:56.6px;
+    font-size :16px;
+    font-family :Alegreya Sans;
+    font-weight : 700;
+    height : 56.6px ;
+    letter-spacing : 0.2px;
+    margin-bottom: 12px ;
+    padding: 15px 28px ;
+    border:solid 1.6px rgb(193,171,132);
+    display: inline-block;
+}
+
+.header-content .Learn-More:hover{
+    background-color:#FFF;
+    color:#000;
+}
+
+.header-content .Book-a-Visit{
+    background-color: rgb(255,255,255);
+    color:#000;
+    cursor: pointer;
+    width : 133.05px;
+    height:56.6px;
+    font-size :16px;
+    font-family :Alegreya Sans;
+    font-weight : 700;
+    height : 56.6px ;
+    letter-spacing : 0.2px;
+    margin-bottom : 12px ;
+    margin-left: 12px ;
+    padding: 15px 28px ;
+    border:solid 1.6px #000;
+    display: inline-block;
+}
+
+.overlay{
+    height: 100vh;
+    background-color: rgba(0,0,0,.1);
+}
+
+/*<<<<<<<<<<<<<<<<<<<<*/
+
+
+.page2{
+    text-align :center;
+}
+
+.page2-content {
+    margin-right:50px;
+    width: 40%;
+    margin-top: 15px;
+    text-align: left;
+    float: left;
+}
+
+.chif-photo {
+    margin-top: 50px;
+    float: left;
+    width: 50%;
+    padding-right: -500;
+}
+
+.page2-content h2 {
+    color: #253048;
+    Font-size: 36px;
+    Font-weight: 400;
+    margin-bottom: 20px;
+    font-family: Alegreya;
+}
+
+.page2-content h3 {
+    color: #c1ab84;
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-family: Dancing Script;
+    Font-weight: 400;
+}
+
+.page2-content p {
+    box-sizing: border-box;
+    color: rgb(104, 104, 104);
+    Font-weight: 400;
+    font-size: 18px;
+    font-family: Alegreya Sans;
+    margin-top : 25px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.circle {
+    background-color: #c1ab84;
+    color: #fff;
+    border-radius: 100%;
+    margin-top: 20px;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 52px;
+    width: 52px;
+    height: 52px;
+}
+
+.page2-content ul li{
+    padding-left: 66px;
+    margin-bottom: 8px;
+    border: 0;
+    padding: 0;
+}
+
+.page2-content ul li label {
+    color: rgb(104, 104, 104);
+    Font-weight: 400;
+    font-size: 20px;
+    font-family: Alegreya Sans;
+    padding-left: 0;
+}
+
+/*  /////////////////////////////////////////////                            */
+.page3 {
+    background-color: #f8f8f8;
+    height: 100vh;
+    text-align: left;
+    margin: auto;
+    overflow: hidden;
+}
+
+.empty{
+    float: left;
+    width: 10%;
+}
+
+.page3-content {
+    margin-top: 130px;
+    margin-left: 80px;
+    float: left;
+    width:40%;
+    
+}
+
+.page3-content h2 {
+    color: #253048;
+    Font-size: 40px;
+    Font-weight: 400;
+    margin-bottom: 10px;
+    font-family: 'Alegreya';
+}
+
+.page3-content h3 {
+    color: #c1ab84;
+    font-size: 30px;
+    margin-bottom: 60px;
+    font-family: 'Dancing Script';
+    Font-weight: 400;
+}
+
+.page3-content p {
+    color: rgb(104, 104, 104);
+    Font-weight: 400;
+    font-size: 18px;
+    font-family: Alegreya Sans;
+    padding-bottom: 30px;
+    display: block;
+}
+
+.like {
+    display: inline-block;
+    color: #c1ab84;
+    padding-bottom: 20px;
+    margin-right: 15px;
+}
+.page3-content ul {
+    padding-left: 0;
+    line-height:33.48px;
+    margin-top: 0;
+    margin-bottom: 35px;
+    box-sizing : border-box;
+    color :rgb(104, 104, 104);
+    display :block;
+    font-family :Alegreya Sans;
+    font-size :18px;
+    font-weight: 400;
+}
+
+.page3-content ul li label {
+    color: rgb(104, 104, 104);
+    Font-weight: 400;
+    font-size: 20px;
+    font-family: Alegreya Sans;
+}
+
+.table-photo {
+   float: left;
+   width: 40%;
+}
+
+.table-photo img {
+    box-sizing: content-box;
+    width: 565.2px;
+    height: 452.15px;
+    margin: 100px 0px 50px 50px;
+}
+/*/////////////////////////////////////////////////////*/
+.page4 {
+    background-image: url(../img/for-background-page.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+.overlay2 {
+    background-color: rgba(0,0,0,0.2);
+    height: 100vh;
+}
+
+.clrfix {
+    clear: both;
+}
+
+/*//////////////////////////////////////////////*/
+.page5 {
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.page5-header h2 {
+    color: #253048;
+    Font-size: 40px;
+    Font-weight: 500;
+    margin-bottom: 10px;
+    font-family: Alegreya;
+    padding-top: 50px;
+}
+
+.page5-header h3 {
+    color: #c1ab84;
+    font-size: 30px;
+    margin-bottom: 60px;
+    font-family: Dancing Script;
+    Font-weight: 400;
+}
+
+.dishes {
+    margin: 0px 50px 20px 50px;
+}
+
+.dish {
+    float: left;
+    width: 33.33%;
+    padding-bottom: 60px;
+}
+
+.dish img {
+    width: 90%;
+}
+
+.dish h4 {
+    color: #253048;
+    Font-size: 20px;
+    Font-weight: 400;
+    margin-bottom: 20px;
+    font-family: Alegreya;
+    padding-top: 20px;
+}
+
+.dish p {
+    color: rgb(104, 104, 104);
+    font-size: 20px;
+    font-family: Alegreya Sans;
+    padding-bottom: 30px;
+}
+
+.dish img {
+    width: 90%;
+}
+
+.dish h4 {
+    color: #253048;
+    Font-size: 20px;
+    Font-weight: 400;
+    margin-bottom: 20px;
+    font-family:Alegreya;
+    padding-top: 20px;
+}
+
+.page5 button {
+    background-color: rgb(193,171,132);
+    color: #FFF;
+    cursor: pointer;
+    width : 160px;
+    height:56.6px;
+    font-size :16px;
+    font-family :Alegreya Sans;
+    font-weight : 700;
+    height : 56.6px ;
+    letter-spacing : 0.2px;
+    margin-top: 10px;
+    margin-bottom: 12px ;
+    padding: 5px 28px ;
+    border:solid 1.6px rgb(193,171,132);
+    display: inline-block;
+}
+
+.page6 {
+    background-color: #f8f8f8;
+}
+
+.page6-content {
+    padding: 100px 0px 40px 90px;
+    float: left;
+    width: 50%;
+    padding-top: 100px;
+}
+
+.page6-content h2 {
+    color: #253048;
+    Font-size: 40px;
+    Font-weight: 400;
+    margin-bottom: 20px;
+    font-family:Alegreya;
+}
+
+.page6-content p {
+    color: rgb(104, 104, 104);
+    Font-weight: 400;
+    font-size: 18px;
+    font-family: Alegreya Sans;
+    padding-bottom: 30px;
+}
+
+.page6-icon {
+    display: inline-block;
+    background-color: #c1ab84;
+    color: #fff;
+    border-radius: 100%;
+    box-sizing: content-box;
+    font-size: 15px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.page6-content ul li label {
+    color: rgb(104, 104, 104);
+    Font-weight: 400;
+    font-size: 18px;
+    font-family:Alegreya Sans;
+}
+
+.page6-map {
+    padding: 100px 40px 40px 40px;
+    float: left;
+    width: 30%;
+}
+
+.page7 {
+    background-color: #403d38;
+}
+
+.page7-content1 {
+    float: left;
+    width: 20%;
+    padding-bottom: 70px;
+    padding-left: 80px;
+}
+
+.page7 h4 {
+    color: rgb(255, 255, 255);
+    Font-size: 20px;
+    Font-weight: 400;
+    margin-bottom: 20px;
+    padding-top: 40px;
+    font-family: Alegreya;
+}
+
+.page7 p {
+    color: rgb(150, 150, 150);
+    Font-weight: 400;
+    font-size: 18px;
+    font-family: Alegreya Sans;
+    padding-bottom: 30px;
+}
+
+.page7-content2 {
+    float: left;
+    width: 20%;
+    padding-bottom: 70px;
+    padding-left: 40px;
+}
+
+.page7 h4 {
+    color: rgb(255, 255, 255);
+    Font-size: 20px;
+    Font-weight: 400;
+    margin-bottom: 20px;
+    padding-top: 40px;
+    font-family: Alegreya;
+}
+
+.page7-content2 a {
+    color: rgb(150, 150, 150);
+    Font-weight: 400;
+    font-size: 18px;
+    font-family: Alegreya Sans;
+    padding-bottom: 30px;
+    display: block;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+a {
+    text-decoration: none;
+}
+
+.page7-content3 {
+    float: left;
+    width: 20%;
+    padding-bottom: 70px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+}
+
+
+.page7-content3 ul li {
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.page7-icon {
+    display: inline-block;
+    color: rgb(150, 150, 150);
+    padding-bottom: 20px;
+    padding-right: 10px;
+}
+
+.page7-content4 {
+    background-image: url(../img/contact-details-map.png);
+    background-position: bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    float: left;
+    width: 20%;
+    padding-bottom: 40px;
+    padding-left: 40px;
+}
+
+.page7 h4 {
+    color: rgb(255, 255, 255);
+    Font-size: 20px;
+    Font-weight: 400;
+    margin-bottom: 20px;
+    padding-top: 40px;
+    font-family: Alegreya;
+}
+
+.page7-icon {
+    display: inline-block;
+    color: rgb(150, 150, 150);
+    padding-bottom: 20px;
+    padding-right: 10px;
+}
+
+.page7-content4 ul li {
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.page7 ul li label {
+    color: rgb(150, 150, 150);
+    Font-weight: 400;
+    font-size: 18px;
+    font-family: Alegreya Sans;
+    padding-bottom: 30px;
+}
+
+/*  ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,*/
+
+.footer {
+    background-color: #353330;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.footer img {
+    width: auto;
+    padding-top: 70px;
+    height: auto;
+}
+
+.footer p {
+    float: none;
+    width: 100%;
+    color: #777;
+    line-height :33.48px;
+    Font-weight: 400;
+    font-size: 18px;
+    font-family: Alegreya Sans;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.footer ul li {
+    /*display: inline;
+    background-color: #484540;
+    color: #8c8a86;
+    width: 30px;
+    height: 30px;
+    box-sizing : border-box;
+    cursor :pointer;
+    font-family :FontAwesome;
+    font-size: 24px;
+    margin-bottom: 15px;
+    line-height: 52px;*/
+    border: 0;
+}
+
+.footer .circle{
+    margin-top: 15px;
+    background-color:  #403d38;
+    color: #8c8a86;
+    box-sizing: content-box;
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 100%;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+
+/*.page2-content ul li{
+    padding-left: 66px;
+    margin-bottom: 8px;
+    border: 0;
+    padding: 0;
+}*/
+/* end header */
